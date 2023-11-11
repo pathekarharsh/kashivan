@@ -1,32 +1,75 @@
-.last_one{
-    text-align: center;
-    align-items: center;
+.last_one {
+  text-align: center;
+  align-items: center;
 }
 
-.last_one .a{
-    padding-top: 2rem;
-    padding-bottom: 3rem;
+.last_one .a {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
 }
 
 .card-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px auto; /* Center the cards horizontally */
-    max-width: 60%; /* Set the maximum width */
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto; /* Center the cards horizontally */
+  max-width: 60%; /* Set the maximum width */
+}
+
+.card {
+  width: calc(25% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 5px;
+}
+
+.icon {
+  font-size: 24px;
+  display: block;
+  margin-bottom: 5px;
+}
+/* Mobile CSS for CardContainer */
+@media only screen and (max-width: 600px) {
+  .last_one {
+    padding: 20px; /* Adding padding for better spacing on smaller screens */
   }
-  
+
+  .a {
+    text-align: center; /* Center the "REGISTER" button */
+    margin-bottom: 20px; /* Provide space between the button and the cards */
+  }
+
   .card {
-    width: calc(25% - 20px);
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    text-align: center;
-    margin: 0 5px;
+    text-align: center; /* Center the content in the card */
+    margin-bottom: 20px; /* Space between cards */
+    width: 45%; /* Two cards in one row for mobile */
+    padding: 10px; /* Padding around cards */
+    box-sizing: border-box; /* Include padding in the width */
   }
-  
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap onto the next line */
+    justify-content: space-between; /* Space between cards */
+    align-items: center; /* Center cards horizontally */
+  }
+
   .icon {
-    font-size: 24px;
-    display: block;
-    margin-bottom: 5px;
+    display: block; /* Ensures icons appear centered */
+    margin: 0 auto 10px; /* Centers icons within the card */
   }
-  
+
+  .btn {
+    display: block;
+    width: 100%;
+    max-width: 200px; /* Adjust button width if needed */
+    margin: 0 auto; /* Center the button */
+    text-align: center;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+  }
+}
+
