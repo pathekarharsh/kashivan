@@ -60,16 +60,5 @@
     margin: 0 auto 10px; /* Centers icons within the card */
   }
 
-  .btn {
-    display: block;
-    width: 100%;
-    max-width: 200px; /* Adjust button width if needed */
-    margin: 0 auto; /* Center the button */
-    text-align: center;
-    padding: 10px;
-    background-color: #3498db;
-    color: white;
-    text-decoration: none;
-  }
 }
 

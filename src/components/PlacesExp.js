@@ -1,14 +1,14 @@
 import React from 'react';
 import './PlacesExp.css'
 
-import Image1 from "../assets/adiyogi.png";
-import Image2 from "../assets/cliff.png";
-import Image3 from "../assets/jatayucenterpost.png";
-import Image4 from "../assets/kovalam.jpg";
-import Image5 from "../assets/pamban.jpg";
-import Image6 from "../assets/qln.png";
-import Image7 from "../assets/vak.png";
-import Image8 from "../assets/vishnu-prasad-2X8qR2dQwFE-unsplash.jpg";
+import Image1 from "../assets/one.jpg"
+import Image2 from "../assets/two.jpg";
+import Image3 from "../assets/thre.jpg";
+import Image4 from "../assets/four.jpg";
+import Image5 from "../assets/five.jpg";
+import Image6 from "../assets/siz.jpg";
+import Image7 from "../assets/seven.jpg";
+import Image8 from "../assets/eight.jpg";
 
 const PlacesExp = () => {
     const images = [

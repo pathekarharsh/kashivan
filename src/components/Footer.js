@@ -6,6 +6,7 @@ import {
   AiOutlineTwitter,
   AiOutlineInstagram,
   AiFillLinkedin,
+  AiFillYoutube
 } from "react-icons/ai";
 
 const Footer = () => {
@@ -27,6 +28,12 @@ const Footer = () => {
             </a>
             <a href="https://www.instagram.com/paryataksathi/">
               <AiOutlineInstagram
+                size={30}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+          </a>
+          <a href="https://www.youtube.com/@paryataksathi/">
+              <AiFillYoutube
                 size={30}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
