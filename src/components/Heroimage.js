@@ -42,7 +42,7 @@ const Heroimage = () => {
         <p className="h5">11 June - 17 June 2024</p>
         <div>
           <a
-            href="https://drive.google.com/file/d/1fITQvxe9vvKBJqlm1cHCh-VhvFzhpl3T/view"
+            href="https://drive.google.com/file/d/1PoLVmFXQO0_uamxeYwYTglhOcU_sVieL/view"
             className="btn"
           >
             ITINERARY
