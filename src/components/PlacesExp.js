@@ -2,11 +2,11 @@ import React from 'react';
 import './PlacesExp.css'
 
 import Image1 from "../assets/one.jpg"
-import Image2 from "../assets/two.jpg";
-import Image3 from "../assets/thre.jpg";
+import Image2 from "../assets/two.jpeg";
+import Image3 from "../assets/three.jpg";
 import Image4 from "../assets/four.jpg";
 import Image5 from "../assets/five.jpg";
-import Image6 from "../assets/siz.jpg";
+import Image6 from "../assets/six.jpg";
 import Image7 from "../assets/seven.jpg";
 import Image8 from "../assets/eight.jpg";
 

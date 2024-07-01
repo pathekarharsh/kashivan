@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import AboutCenter from "../components/AboutCenter";
 import PlacesExp from "../components/PlacesExp";
 import CardContainer from "../components/CardContainer";
+import { Dakshin1 } from "../components/Dakshin1";
 
 const Home = () => {
   return (
@@ -12,8 +13,11 @@ const Home = () => {
       <Navbar />
       <Heroimage />
       <AboutCenter />
+      <Dakshin1 />
       <PlacesExp />
+
       <CardContainer />
+
       <Footer />
     </div>
   );

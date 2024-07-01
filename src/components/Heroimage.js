@@ -5,6 +5,7 @@ import image1 from '../assets/prem.jpg';
 import image2 from '../assets/taj.jpg';
 import image3 from '../assets/ganga.jpg';
 import image4 from '../assets/banaras.jpg';
+import image5 from '../assets/munnar.jpg';
 
 const Heroimage = () => {
   const images = [
@@ -12,6 +13,7 @@ const Heroimage = () => {
     image2,
     image3,
     image4,
+    image5,
   ];
   const intervalTime = 3000; // Interval time in milliseconds
 
@@ -36,18 +38,18 @@ const Heroimage = () => {
       </div>
       <div className="content">
         <p>
-          Uttar Pradesh <i>Trail</i>
+          Kerala <i>Trail</i>
         </p>
-        <h1>KASHIVAN</h1>
-        <p className="h5">11 June - 17 June 2024</p>
+        <h1>DAKSHIN 2.0</h1>
+        <p className="h5">22 Sept - 29 Sept 2024</p>
         <div>
           <a
-            href="https://drive.google.com/file/d/1mdxgvUyoYGxHjvSxREcpbF0vGcNYphJ3/view?usp=sharing"
+            href="https://drive.google.com/file/d/1hXSv1k_RfNcwkSEE_Te3fazxwDnBr945/view?usp=sharing"
             className="btn"
           >
             ITINERARY
           </a>
-          <a href="https://forms.gle/Kj7WyFhaGBbRvtyCA" className="btn-light">
+          <a href="https://forms.gle/ZmGhNpiEq6WEAUwi9" className="btn-light">
             REGISTER
           </a>
         </div>

@@ -7,29 +7,29 @@ const CardContainer = () => {
     {
       icon: <FaMoneyBillAlt size={50} style={{ color: "#fff" }} />,
       heading: "Money",
-      description: "9,000 Rs",
+      description: "12,800 Rs",
     },
     {
       icon: <FaBed size={50} style={{ color: "#fff" }} />,
       heading: "Dorms",
-      description: "AC Hotels",
+      description: "Hotels",
     },
     {
       icon: <FaTrain size={50} style={{ color: "#fff" }} />,
       heading: "Train",
-      description: "SL",
+      description: "SL & AC",
     },
     {
       icon: <FaCalendar size={50} style={{ color: "#fff" }} />,
       heading: "Calendar",
-      description: "7 D 6 N",
+      description: "8 D 7 N",
     },
   ];
 
   return (
       <div className='last_one'>
           <div className='a'>
-      <a href="https://forms.gle/1wptJLuqz9CwyGGs8" className="btn">
+      <a href="https://forms.gle/ZmGhNpiEq6WEAUwi9" className="btn">
         REGISTER
               </a>
               </div>

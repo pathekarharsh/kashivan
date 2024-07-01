@@ -2,8 +2,6 @@ import "./Footer.css";
 import React from "react";
 import {
   AiOutlineMail,
-  AiOutlineGithub,
-  AiOutlineTwitter,
   AiOutlineInstagram,
   AiFillLinkedin,
   AiFillYoutube
