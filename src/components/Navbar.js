@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
+  // const handleClick = () => setClick(!click);
 
   const [color, setColor] = useState(false);
   const handleColor = () => {
